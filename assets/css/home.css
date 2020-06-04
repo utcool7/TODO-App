@@ -1,0 +1,133 @@
+body{
+    margin : 0;
+    font-family: sans-serif;
+    background-image: url(../images/abstract-3d-art-background-holographic-floating-liquid-blobs-soap-bubbles_6436-444.jpg);
+} 
+
+/* heading alignment , size , boldness */
+#heading{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+/*styling section for the form and content  */
+section{
+    text-align: center;
+    margin: auto;
+    width: 70vw;
+    height: 80vh;
+    background-color: rgb(255, 201, 172);
+    border-radius: 15px 50px;
+    border:2px solid black;
+}
+
+/* styling description  */
+#desc {
+    
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 23px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+/* changing color of placeholder */
+::placeholder{
+    color: black;
+}
+
+/* To align date and drop down */
+#fifty-per{
+    width:49.6%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    margin-top:4px;
+    border-radius: 15px;
+}
+
+
+.iter{
+    background-color: #FFFFFFFF;
+    
+}
+/* todo container display property */
+.todo{
+    display: flex;
+}
+/* styling details  */
+.details{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    
+}
+
+/* Styling delete button */
+.delete-btn{
+   width: 10%;
+   
+   /* padding: 3px; */
+   text-align: center;
+   margin-top: 24px;
+   margin-left: 30px;
+   
+}
+
+/*  */
+#add{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 8px;
+    width: 120px;
+    height: 60px;
+    font-size: 1.1rem ;
+    font-weight: 600;
+    color: cornsilk;
+    background-color: crimson;
+}
+
+
+li{
+    list-style-type: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+  }
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+    
+  }
+
+  
